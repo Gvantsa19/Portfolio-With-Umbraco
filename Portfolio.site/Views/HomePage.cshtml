@@ -1,0 +1,21 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = null;
+}
+
+<body style="margin: 0; padding: 0"></body>
+
+@if (Model.Image != null && Model.Title != null && Model.AboutMe != null && Model.Links != null)
+{
+	<img style="width: 100%; position: relative;" src="@Model.Image.Url()" alt="image">
+	<h1 style="position: absolute; top: 10%; color: #ffff;">@Model.Title</h1>
+	<h2 style="position: absolute; top: 20%; color: #ffff">@Model.AboutMe</h2>
+	@foreach (var item in Model.Links)
+	{
+		<ul style="position: absolute; top: 30%; color: #ffff">
+			<li>@item</li>
+		</ul>
+	}
+}
