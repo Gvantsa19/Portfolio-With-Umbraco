@@ -98,12 +98,156 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string University => this.Value<string>(_publishedValueFallback, "university");
 
 		///<summary>
+		/// About
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("about")]
+		public virtual string About => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAbout(this, _publishedValueFallback);
+
+		///<summary>
 		/// AboutMe
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("aboutMe")]
 		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString AboutMe => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAboutMe(this, _publishedValueFallback);
+
+		///<summary>
+		/// address
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("address")]
+		public virtual string Address => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAddress(this, _publishedValueFallback);
+
+		///<summary>
+		/// AngularMaterial
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("angularMaterial")]
+		public virtual string AngularMaterial => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAngularMaterial(this, _publishedValueFallback);
+
+		///<summary>
+		/// BackEndDevelopment
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("backEndDevelopment")]
+		public virtual string BackEndDevelopment => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetBackEndDevelopment(this, _publishedValueFallback);
+
+		///<summary>
+		/// Cleanarchitecture
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("cleanarchitecture")]
+		public virtual string Cleanarchitecture => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetCleanarchitecture(this, _publishedValueFallback);
+
+		///<summary>
+		/// Contact
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("contact")]
+		public virtual string Contact => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetContact(this, _publishedValueFallback);
+
+		///<summary>
+		/// CQRS
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("cQRS")]
+		public virtual string CQrs => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetCQrs(this, _publishedValueFallback);
+
+		///<summary>
+		/// CREDOBANK
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("cREDOBANK")]
+		public virtual string CRedobank => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetCRedobank(this, _publishedValueFallback);
+
+		///<summary>
+		/// Csharp
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("csharp")]
+		public virtual string Csharp => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetCsharp(this, _publishedValueFallback);
+
+		///<summary>
+		/// CSS
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("cSS")]
+		public virtual string CSS => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetCSS(this, _publishedValueFallback);
+
+		///<summary>
+		/// DDD
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("dDD")]
+		public virtual string DDD => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetDDD(this, _publishedValueFallback);
+
+		///<summary>
+		/// email
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("email")]
+		public virtual string Email => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetEmail(this, _publishedValueFallback);
+
+		///<summary>
+		/// EventSourcing
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("eventSourcing")]
+		public virtual string EventSourcing => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetEventSourcing(this, _publishedValueFallback);
+
+		///<summary>
+		/// FRONTENDDEVELOPERINTERN
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("fRONTENDDEVELOPERINTERN")]
+		public virtual string FRontenddeveloperintern => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetFRontenddeveloperintern(this, _publishedValueFallback);
+
+		///<summary>
+		/// frontintern
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("frontintern")]
+		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString Frontintern => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetFrontintern(this, _publishedValueFallback);
+
+		///<summary>
+		/// fullstack
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("fullstack")]
+		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString Fullstack => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetFullstack(this, _publishedValueFallback);
+
+		///<summary>
+		/// FULLSTACKDEVELOPER
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("fULLSTACKDEVELOPER")]
+		public virtual string FUllstackdeveloper => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetFUllstackdeveloper(this, _publishedValueFallback);
+
+		///<summary>
+		/// GEOLAB
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("gEOLAB")]
+		public virtual string GEolab => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetGEolab(this, _publishedValueFallback);
 
 		///<summary>
 		/// Github
@@ -114,12 +258,60 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.Link> Github => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetGithub(this, _publishedValueFallback);
 
 		///<summary>
+		/// Home
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("home")]
+		public virtual string Home => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetHome(this, _publishedValueFallback);
+
+		///<summary>
+		/// HTML
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("hTML")]
+		public virtual string HTml => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetHTml(this, _publishedValueFallback);
+
+		///<summary>
 		/// Image
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("image")]
 		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Image => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetImage(this, _publishedValueFallback);
+
+		///<summary>
+		/// JavaScript
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("javaScript")]
+		public virtual string JavaScript => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetJavaScript(this, _publishedValueFallback);
+
+		///<summary>
+		/// jrfront
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("jrfront")]
+		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString Jrfront => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetJrfront(this, _publishedValueFallback);
+
+		///<summary>
+		/// JUNIORFRONTENDDEVELOPER
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("jUNIORFRONTENDDEVELOPER")]
+		public virtual string JUniorfrontenddeveloper => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetJUniorfrontenddeveloper(this, _publishedValueFallback);
+
+		///<summary>
+		/// Kafka
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("kafka")]
+		public virtual string Kafka => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetKafka(this, _publishedValueFallback);
 
 		///<summary>
 		/// Links
@@ -130,11 +322,170 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::System.Collections.Generic.IEnumerable<string> Links => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetLinks(this, _publishedValueFallback);
 
 		///<summary>
+		/// Microservices
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("microservices")]
+		public virtual string Microservices => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetMicroservices(this, _publishedValueFallback);
+
+		///<summary>
+		/// NestJs
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("nestJs")]
+		public virtual string NestJs => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNestJs(this, _publishedValueFallback);
+
+		///<summary>
+		/// NetCore
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("netCore")]
+		public virtual string NetCore => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNetCore(this, _publishedValueFallback);
+
+		///<summary>
+		/// netintern
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("netintern")]
+		public virtual global::Umbraco.Cms.Core.Strings.IHtmlEncodedString Netintern => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNetintern(this, _publishedValueFallback);
+
+		///<summary>
+		/// NETINTERNn
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("nETINTERNn")]
+		public virtual string NEtinternn => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNEtinternn(this, _publishedValueFallback);
+
+		///<summary>
+		/// NodeJs
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("nodeJs")]
+		public virtual string NodeJs => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNodeJs(this, _publishedValueFallback);
+
+		///<summary>
+		/// number
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[ImplementPropertyType("number")]
+		public virtual decimal Number => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNumber(this, _publishedValueFallback);
+
+		///<summary>
+		/// ol
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("ol")]
+		public virtual string Ol => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetOl(this, _publishedValueFallback);
+
+		///<summary>
+		/// politic
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("politic")]
+		public virtual string Politic => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetPolitic(this, _publishedValueFallback);
+
+		///<summary>
+		/// Portfolio
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("portfolio")]
+		public virtual string Portfolio => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetPortfolio(this, _publishedValueFallback);
+
+		///<summary>
+		/// RabbitMQ
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("rabbitMQ")]
+		public virtual string RabbitMQ => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetRabbitMQ(this, _publishedValueFallback);
+
+		///<summary>
+		/// RepositoryPattern
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("repositoryPattern")]
+		public virtual string RepositoryPattern => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetRepositoryPattern(this, _publishedValueFallback);
+
+		///<summary>
+		/// Resume
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("resume")]
+		public virtual string Resume => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetResume(this, _publishedValueFallback);
+
+		///<summary>
+		/// Resumes
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("resumes")]
+		public virtual string Resumes => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetResumes(this, _publishedValueFallback);
+
+		///<summary>
+		/// RSIGEORGIA
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("rSIGEORGIA")]
+		public virtual string RSigeorgia => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetRSigeorgia(this, _publishedValueFallback);
+
+		///<summary>
+		/// SELFGE
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("sELFGE")]
+		public virtual string SElfge => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetSElfge(this, _publishedValueFallback);
+
+		///<summary>
+		/// SQL
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("sQL")]
+		public virtual string SQL => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetSQL(this, _publishedValueFallback);
+
+		///<summary>
 		/// Title: Enter Title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("title")]
 		public virtual string Title => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetTitle(this, _publishedValueFallback);
+
+		///<summary>
+		/// Typescript
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("typescript")]
+		public virtual string Typescript => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetTypescript(this, _publishedValueFallback);
+
+		///<summary>
+		/// uni
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("uni")]
+		public virtual string Uni => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetUni(this, _publishedValueFallback);
+
+		///<summary>
+		/// WordPress
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("wordPress")]
+		public virtual string WordPress => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetWordPress(this, _publishedValueFallback);
 	}
 }

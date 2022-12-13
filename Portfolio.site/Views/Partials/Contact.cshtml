@@ -1,3 +1,5 @@
+@inherits UmbracoViewPage<IHeaderProperties>
+
 <section id="contact" class="contact">
     <div class="container">
 
@@ -12,7 +14,7 @@
                 <div class="info-box">
                     <i class="bx bx-map"></i>
                     <h3>My Address</h3>
-                    <p>Tbilisi, Georgia</p>
+                    <p>@Model.Address</p>
                 </div>
             </div>
 
@@ -32,14 +34,14 @@
                 <div class="info-box">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Me</h3>
-                    <a href="mailtp:oqropiridzegvantsa@gmail.com">oqropiridzegvantsa@gmail.com</a>
+                    <a href="mailtp:oqropiridzegvantsa@gmail.com">@Model.Email</a>
                 </div>
             </div>
             <div class="col-md-6 mt-4 d-flex align-items-stretch">
                 <div class="info-box">
                     <i class="bx bx-phone-call"></i>
                     <h3>Call Me</h3>
-                    <p>598 27 25 18</p>
+                    <p>@Model.Number</p>
                 </div>
             </div>
         </div>
@@ -68,4 +70,4 @@
         </form>
 
     </div>
-</section><!-- End Contact Section -->
+</section>
