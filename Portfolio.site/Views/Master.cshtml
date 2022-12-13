@@ -1,0 +1,26 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@await Html.PartialAsync("~/Views/Partials/Head.cshtml")
+</head>
+<body>
+	@await Html.PartialAsync("~/Views/Partials/MetaData.cshtml", Model)
+
+	@RenderBody()
+
+	@await Html.PartialAsync("~/Views/Partials/Resume.cshtml")
+
+	@await Html.PartialAsync("~/Views/Partials/Portfolio.cshtml")
+
+	@await Html.PartialAsync("~/Views/Partials/Contact.cshtml")
+
+	@await Html.PartialAsync("~/Views/Partials/Data.cshtml")
+
+</body>
+</html>
