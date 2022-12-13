@@ -1,3 +1,5 @@
+@inherits UmbracoViewPage<IHeaderProperties>;
+
 <section id="portfolio" class="portfolio">
     <div class="container">
 
@@ -20,7 +22,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/darwin-vegher-W_ZYCEUapF0-unsplash.jpg" class="img-fluid" alt="">
+                    @if (Model.BookStore != null)
+                    {
+                        <img src="@Model.BookStore.Url()" class="img-fluid" alt="">
+                    }
                     <div class="portfolio-info">
                         <h4>Book-Store</h4>
                         <p>App</p>
@@ -35,7 +40,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/lucian-alexe-afDu-GuxjjM-unsplash.jpg" class="img-fluid" alt="">
+                    @if (Model.Delivery != null)
+                    {
+                        <img src="@Model.Delivery.Url()" class="img-fluid" alt="">
+                    }
                     <div class="portfolio-info">
                         <h4>Delivery-Service</h4>
                         <p>App</p>
@@ -51,7 +59,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/john-schnobrich-ydju9gb6fiI-unsplash.jpg" class="img-fluid" alt="">
+                    @if (Model.MIcafe != null)
+                    {
+                        <img src="@Model.MIcafe.Url()" class="img-fluid" alt="">
+                    }
                     <div class="portfolio-info">
                         <h4>MI-Cafe</h4>
                         <p>Web</p>
@@ -66,7 +77,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/jefferson-santos-9SoCnyQmkzI-unsplash.jpg" class="img-fluid" alt="">
+                    @if (Model.Product != null)
+                    {
+                        <img src="@Model.Product.Url()" class="img-fluid" alt="">
+                    }
                     <div class="portfolio-info">
                         <h4>product-factory</h4>
                         <p>Web</p>
@@ -81,8 +95,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/volodymyr-hryshchenko-e8YFkjN2CzY-unsplash.jpg" class="img-fluid"
-                        alt="">
+                    @if (Model.Aversiproject != null)
+                    {
+                        <img src="@Model.Aversiproject.Url()" class="img-fluid" alt="">
+                    }
                     <div class="portfolio-info">
                         <h4>aversi_project</h4>
                         <p>Web</p>

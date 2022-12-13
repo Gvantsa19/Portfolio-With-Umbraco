@@ -130,12 +130,28 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string AngularMaterial => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAngularMaterial(this, _publishedValueFallback);
 
 		///<summary>
+		/// aversiproject
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("aversiproject")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Aversiproject => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetAversiproject(this, _publishedValueFallback);
+
+		///<summary>
 		/// BackEndDevelopment
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("backEndDevelopment")]
 		public virtual string BackEndDevelopment => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetBackEndDevelopment(this, _publishedValueFallback);
+
+		///<summary>
+		/// BookStore
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("bookStore")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops BookStore => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetBookStore(this, _publishedValueFallback);
 
 		///<summary>
 		/// Cleanarchitecture
@@ -194,6 +210,14 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string DDD => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetDDD(this, _publishedValueFallback);
 
 		///<summary>
+		/// Delivery
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("delivery")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Delivery => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetDelivery(this, _publishedValueFallback);
+
+		///<summary>
 		/// email
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
@@ -248,14 +272,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("gEOLAB")]
 		public virtual string GEolab => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetGEolab(this, _publishedValueFallback);
-
-		///<summary>
-		/// Github
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("github")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.Link> Github => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetGithub(this, _publishedValueFallback);
 
 		///<summary>
 		/// Home
@@ -314,12 +330,28 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Kafka => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetKafka(this, _publishedValueFallback);
 
 		///<summary>
+		/// liinks
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("liinks")]
+		public virtual global::Umbraco.Cms.Core.Models.Link Liinks => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetLiinks(this, _publishedValueFallback);
+
+		///<summary>
 		/// Links
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("links")]
 		public virtual global::System.Collections.Generic.IEnumerable<string> Links => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetLinks(this, _publishedValueFallback);
+
+		///<summary>
+		/// MICafe
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("mICafe")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops MIcafe => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetMIcafe(this, _publishedValueFallback);
 
 		///<summary>
 		/// Microservices
@@ -399,6 +431,14 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("portfolio")]
 		public virtual string Portfolio => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetPortfolio(this, _publishedValueFallback);
+
+		///<summary>
+		/// product
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("product")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Product => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetProduct(this, _publishedValueFallback);
 
 		///<summary>
 		/// RabbitMQ
