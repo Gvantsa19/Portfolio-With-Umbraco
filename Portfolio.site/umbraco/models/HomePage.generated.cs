@@ -218,6 +218,14 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Delivery => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetDelivery(this, _publishedValueFallback);
 
 		///<summary>
+		/// details
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("details")]
+		public virtual global::System.Collections.Generic.IEnumerable<string> Details => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetDetails(this, _publishedValueFallback);
+
+		///<summary>
 		/// email
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
@@ -298,6 +306,14 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops Image => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetImage(this, _publishedValueFallback);
 
 		///<summary>
+		/// interests
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("interests")]
+		public virtual global::System.Collections.Generic.IEnumerable<string> Interests => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetInterests(this, _publishedValueFallback);
+
+		///<summary>
 		/// JavaScript
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
@@ -360,6 +376,14 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("microservices")]
 		public virtual string Microservices => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetMicroservices(this, _publishedValueFallback);
+
+		///<summary>
+		/// nav
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("nav")]
+		public virtual global::System.Collections.Generic.IEnumerable<string> Nav => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetNav(this, _publishedValueFallback);
 
 		///<summary>
 		/// NestJs
@@ -487,6 +511,22 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("sELFGE")]
 		public virtual string SElfge => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetSElfge(this, _publishedValueFallback);
+
+		///<summary>
+		/// skills
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("skills")]
+		public virtual global::System.Collections.Generic.IEnumerable<string> Skills => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetSkills(this, _publishedValueFallback);
+
+		///<summary>
+		/// skillstwo
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("skillstwo")]
+		public virtual global::System.Collections.Generic.IEnumerable<string> Skillstwo => global::Umbraco.Cms.Web.Common.PublishedModels.HeaderProperties.GetSkillstwo(this, _publishedValueFallback);
 
 		///<summary>
 		/// SQL

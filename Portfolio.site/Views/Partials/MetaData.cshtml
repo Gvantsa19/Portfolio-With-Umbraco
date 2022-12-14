@@ -1,28 +1,44 @@
 @inherits UmbracoViewPage<IHeaderProperties>
 
-<header id="header" style="background-image: url('@Model.Image.Url()'); width: 100%; background-size: cover;">
-    <div class="container" style=" background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.4); padding: 20px;">
+@if (Model.Image != null)
+{
+    <header id="header" style="background-image: url('@Model.Image.Url()'); width: 100%; background-size: cover;">
+        <div class="container" style=" background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.4); padding: 20px;">
 
-        <h1><a href="/">@Model.Title</a></h1>
-        <h2>@Model.AboutMe</h2>
+            <h1><a href="/">@Model.Title</a></h1>
+            <h2>@Model.AboutMe</h2>
 
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link active" href="/">@Model.Home</a></li>
-                <li><a class="nav-link" href="#about">@Model.About</a></li>
-                <li><a class="nav-link" href="#resume">@Model.Resumes</a></li>
-                <li><a class="nav-link" href="#portfolio">@Model.Portfolio</a></li>
-                <li><a class="nav-link" href="#contact">@Model.Contact</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link active" href="/">@Model.Home</a></li>
+                    <li><a class="nav-link" href="#about">@Model.About</a></li>
+                    <li><a class="nav-link" href="#resume">@Model.Resumes</a></li>
+                    <li><a class="nav-link" href="#portfolio">@Model.Portfolio</a></li>
+                    <li><a class="nav-link" href="#contact">@Model.Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
 
-        <div class="social-links">
-            <a href="@Model.Liinks" class="GitHub"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/gvantsa-okropiridze-797540201/" class="linkedin"><i
+            @* <nav id="navbar" class="navbar">
+                <ul>
+                    @if (Model.Nav != null)
+                    {
+                        @foreach (var item in Model.Nav)
+                        {
+                            <li><a href="@item">@item</a></li>
+                        }
+                    }
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav> *@
+
+            <div class="social-links">
+                <a href="@Model.Liinks" class="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/gvantsa-okropiridze-797540201/" class="linkedin"><i
                     class="bi bi-linkedin"></i></a>
-        </div>
+            </div>
 
-    </div>
-</header>
+        </div>
+    </header>
+}
